@@ -2,14 +2,37 @@
 <html lang="en">
 
 <head>
+  <link rel="preconnect" href="https://www.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
   <meta charset="UTF-8" />
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vue Vite</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
   <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+  <script>
+    function initFirebase() {
+      let firebaseConfig = {
+        apiKey: "AIzaSyDbfIHtrvzYkIPxsAJmNivxAsTKOfvMCcc",
+        authDomain: "front-end-bootcamp-93-86f63.firebaseapp.com",
+        projectId: "front-end-bootcamp-93-86f63",
+        storageBucket: "front-end-bootcamp-93-86f63.appspot.com",
+        messagingSenderId: "628368500232",
+        appId: "1:628368500232:web:7c4195889edf518bf753bd",
+        measurementId: "G-GE44PM48GK",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+    }
+
+    initFirebase();
+  </script>
 </head>
 
 <body>

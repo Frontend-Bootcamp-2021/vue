@@ -1,6 +1,7 @@
 $white: rgb(255, 255, 255);
 $black:rgb(34, 34, 34);
 $blue: rgb(86, 140, 244);
+$gray: rgb(220, 220, 220);
 
 $main-bgcolor: rgb(234, 239, 244);
 $color: $black;
@@ -14,3 +15,20 @@ $menu-link-active-bgcolor: darken($blue, 20%);
 $button-border: $blue;
 $button-text: $black;
 $button-hover: $blue;
+
+$signin-border: $black;
+$signin-emoji-hover: $blue;
+$button-bgcolor: $black;
+$button-bgcolor-hover: $blue;
+
+$message-bgcolor: lighten($blue, 20%);
+$message-item-bgcolor: $white;
+$message-icon-bgcolor: $blue;
+$message-icon-text: $white;
+$message-emoji-bgcolor: $blue;
+$message-emoji-border: $white;
+
+$message-input: $white;
+$message-button: $white;
+$message-button-disabled:$gray;
+$message-button-hover: $blue;
